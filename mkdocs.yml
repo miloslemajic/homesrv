@@ -1,4 +1,4 @@
-site_name: Homeserver
+site_name: homeserver
 theme: 
   name: readthedocs
   highlightjs: true
