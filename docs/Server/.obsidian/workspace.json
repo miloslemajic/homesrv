@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "d16d0fbe1dcdb035",
+    "type": "split",
+    "children": [
+      {
+        "id": "575b92b9701eba25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc8f28785aa8daf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat sheets/Linux Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46dab6c4dbcce5ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb3511a2048f937d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c2809c3b3c50182",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7db1ae75489012c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c4cda4707aac6c86",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4331d42b540aad4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f570af8a560e897f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21bddca284043335",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cheat sheets/Linux Network.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8efadfc79a778e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cheat sheets/Linux Network.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4511263722890d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5bbc8678e9a862cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cheat sheets/Linux Network.md"
+              }
+            }
+          },
+          {
+            "id": "72974d63c3b64ea0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "653d96b0c4cf75c9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "fc8f28785aa8daf1",
+  "lastOpenFiles": [
+    "Documentation/Server 1/Home server, stan.md",
+    "Documentation/Server 1/home_network_stan.drawio.png",
+    "Documentation/Server 1/Untitled/Random.md",
+    "Documentation/Server 1/Untitled/Python cluster.md",
+    "Documentation/Server 1/Untitled/NetBox.md",
+    "Documentation/Server 1/Untitled/OpenVPN setup.md",
+    "Documentation/Server.md",
+    "Cheat sheets/Docker.md",
+    "Cheat sheets/Linux Basics.md",
+    "Cheat sheets/Cisco CLI.md",
+    "Linux/Untitled.md",
+    "Linux/Ngnix.md",
+    "Linux/MySQL server.md",
+    "Linux/git.md",
+    "Linux/DNS setup.md",
+    "Linux/Backup.md",
+    "Other/Networking/EIGRP.md",
+    "Other/Networking/DNS.md",
+    "Cheat sheets/Linux Network.md",
+    "Cheat sheets/Netfilter.md",
+    "Python",
+    "Windows/Active Directory",
+    "Windows",
+    "Linux",
+    "Other/Networking/Networking Basics.md",
+    "Other/Networking/Protocols.md",
+    "Other/Networking/VPN.md",
+    "Documentation/Server 1/Untitled",
+    "Cheat sheets",
+    "Windows.md",
+    "Linux.md",
+    "Python.md",
+    "Documentation/Server 1/Screenshot_3.png",
+    "Other",
+    "Other/Networking",
+    "VMware",
+    "Linux/Other",
+    "Untitled.canvas",
+    "Linux.canvas"
+  ]
+}

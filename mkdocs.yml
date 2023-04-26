@@ -1,0 +1,6 @@
+site_name: Homeserver
+theme: 
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - search

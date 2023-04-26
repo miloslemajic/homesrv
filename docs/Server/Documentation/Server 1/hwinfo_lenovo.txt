@@ -1,0 +1,99 @@
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 2.8 present.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: LENOVO
+	Product Name: 80LK
+	Version: Lenovo B51-30
+	Serial Number: MP11SB5R
+	UUID: ed4d6be6-f7aa-e511-90ab-1c39473bb18a
+	Wake-up Type: Power Switch
+	SKU Number: LENOVO_MT_80LK_BU_idea_FM_Lenovo B51-30
+	Family: IDEAPAD
+
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 2.8 present.
+
+Handle 0x0004, DMI type 4, 42 bytes
+Processor Information
+	Socket Designation: CHV
+	Type: Central Processor
+	Family: Celeron
+	Manufacturer: Intel(R) Corporation
+	ID: C3 06 04 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 76, Stepping 3
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Celeron(R) CPU  N3050  @ 1.60GHz
+	Voltage: 3.9 V
+	External Clock: 83 MHz
+	Max Speed: 1660 MHz
+	Current Speed: 1600 MHz
+	Status: Populated, Enabled
+	Upgrade: Slot 1
+	L1 Cache Handle: 0x0006
+	L2 Cache Handle: 0x0007
+	L3 Cache Handle: Not Provided
+	Serial Number: To Be Filled By O.E.M.
+	Asset Tag: To Be Filled By O.E.M.
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 2
+	Core Enabled: 2
+	Thread Count: 2
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 2.8 present.
+
+Handle 0x0023, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: No Error
+	Number Of Devices: 2
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           780M  3.1M  777M   1% /run
+/dev/sda2       145G   17G  121G  12% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda1       1.1G  6.1M  1.1G   1% /boot/efi
+tmpfs           780M  4.0K  780M   1% /run/user/1000
