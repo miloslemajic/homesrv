@@ -66,16 +66,11 @@ HDD: 160GB
 | SSH         | up        |
 | SAMBA       | up        |
 | Cockpit     | up        |
-| netbox      | up        |
 | ufw         | up        |
-
-
-| **Other**      |     |
-| -------------- | --- |
-| docker         |     |
-| python cluster |     |
+| nginx            | its complicated           |
+| python cluster | dockerized    |
 | gns3 cluster   | removed    |
-| nginx               |  removed   |
+| netbox               |  up  |
 
 ---
 

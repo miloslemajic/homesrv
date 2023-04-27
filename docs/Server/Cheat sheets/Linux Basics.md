@@ -27,6 +27,10 @@ basics
 
 package managers 
 ubuntu `apt`
+`apt-get`
+`install`
+`remove`
+`remove --purge`
 centOS and RHEL `yum` and `rpm`
 ARCH `pacman`
 

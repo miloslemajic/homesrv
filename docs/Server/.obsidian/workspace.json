@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat sheets/Linux Network.md",
+                "file": "Documentation/Server 1/Untitled/Random.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat sheets/Linux Network.md",
+                "file": "Documentation/Server 1/Untitled/Random.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat sheets/Linux Network.md",
+                "file": "Documentation/Server 1/Untitled/Random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat sheets/Linux Network.md"
+                "file": "Documentation/Server 1/Untitled/Random.md"
               }
             }
           },
@@ -166,16 +166,18 @@
   },
   "active": "fc8f28785aa8daf1",
   "lastOpenFiles": [
-    "Documentation/Server 1/Home server, stan.md",
-    "Documentation/Server 1/home_network_stan.drawio.png",
-    "Documentation/Server 1/Untitled/Random.md",
-    "Documentation/Server 1/Untitled/Python cluster.md",
     "Documentation/Server 1/Untitled/NetBox.md",
+    "Documentation/Server 1/Untitled/Python cluster.md",
+    "Documentation/Server 1/Untitled/Random.md",
     "Documentation/Server 1/Untitled/OpenVPN setup.md",
     "Documentation/Server.md",
+    "Documentation/Server 1/Home server, stan.md",
     "Cheat sheets/Docker.md",
-    "Cheat sheets/Linux Basics.md",
     "Cheat sheets/Cisco CLI.md",
+    "Cheat sheets/Linux Network.md",
+    "Cheat sheets/Netfilter.md",
+    "Cheat sheets/Linux Basics.md",
+    "Documentation/Server 1/home_network_stan.drawio.png",
     "Linux/Untitled.md",
     "Linux/Ngnix.md",
     "Linux/MySQL server.md",
@@ -184,8 +186,6 @@
     "Linux/Backup.md",
     "Other/Networking/EIGRP.md",
     "Other/Networking/DNS.md",
-    "Cheat sheets/Linux Network.md",
-    "Cheat sheets/Netfilter.md",
     "Python",
     "Windows/Active Directory",
     "Windows",
