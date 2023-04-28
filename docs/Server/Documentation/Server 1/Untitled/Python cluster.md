@@ -75,9 +75,8 @@ sudo docker run --rm -itd -p 9001:8888 -v /home/milos/jupyter_cluster:/home/jovy
 see rest in build your image
 
 ### build your image
-in https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#add-a-custom-conda-environment-and-jupyter-kernel
-make Dockerfile and build image, run with new image.
-
+in [https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#add-a-custom-conda-environment-and-jupyter-kernel](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#add-a-custom-conda-environment-and-jupyter-kernel)  
+make Dockerfile and build image, run with new image.  
 better to add custom token in `command:` see issues
 ```
 version: "3.9"
@@ -97,7 +96,7 @@ services:
     tty: true
 ```
 
-no env/kernel showing in notebook https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
+no env/kernel showing in notebook[ https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook)
 ```
 conda activate myenv
 ```
@@ -112,17 +111,16 @@ reboot container if needed, usualy just wait a bit. works as intended.
 
 ### issues encountered
 
-- Generating token spam when running container if left empty, removing it generates random token possibly locking you out if you dont get link:
+- Generating token spam when running container if left empty, removing it generates random token possibly locking you out if you dont get link:  
 removed `--NotebookApp.token=''` from `command:` to prevent `Generating new user for token-authenticated request:` spam
-better to add custom token https://stackoverflow.com/questions/75830256/jupyter-spam-with-generating-new-user-for-token-authenticated-request-in-logs
+better to add custom token [https://stackoverflow.com/questions/75830256/jupyter-spam-with-generating-new-user-for-token-authenticated-request-in-logs](https://stackoverflow.com/questions/75830256/jupyter-spam-with-generating-new-user-for-token-authenticated-request-in-logs)  
+- Environements problem  
+in jupyter notebook documentation [https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html]( https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html) its stated that envs are saved in `/opt/conda` so we mount existing env with container as volume with
+`-v /<your>/<path>/anaconda3/envs:/opt/conda/envs `  
+Note: dont try to copy whole env to the docker container, it will take more time and memory and might not work properly in the end, especially if you have to install ipykernel to the env. Rather build new image or mount to envs on host!  
 
-- Environements problem
-in jupyter notebook documentation https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html its stated that envs are saved in `/opt/conda` so we mount existing env with container as volume with
-`-v /<your>/<path>/anaconda3/envs:/opt/conda/envs `
-Note: dont try to copy whole env to the docker container, it will take more time and memory and might not work properly in the end, especially if you have to install ipykernel to the env. Rather build new image or mount to envs on host!
-
-- Can not select/use environement/kernel from notebook. So open terminal in notebook and run following:
-solution from: https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
+- Can not select/use environement/kernel from notebook. So open terminal in notebook and run following:  
+solution from:[ https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook]( https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook )  
 ```
 conda activate myenv
 ```

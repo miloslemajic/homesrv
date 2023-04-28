@@ -1,7 +1,7 @@
 # Netfilter
 
 ## ufw
-	Uncomplicated Firewall (ufw)
+	Uncomplicated Firewall (ufw)  
 ```
 sudo ufw show allow deny status enable disable reload
 ```
